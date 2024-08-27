@@ -1,0 +1,90 @@
+.right-side {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 652px;
+    margin-left: 412px;
+    position: absolute;
+    justify-content: space-between;
+  }
+  
+  .product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: calc(25% - 20px); /* Adjust width for 4 items per row */
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .new-product,
+  .out-of-stock {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  
+  .new-product {
+    background-color: green;
+  }
+  
+  .product-details {
+    text-align: center;
+  }
+  
+  .product-title {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .product-price {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .product-actions {
+    margin-top: 15px;
+  }
+  
+  .explore-skill {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .explore-skill:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,38 @@
+.banner{
+    width: 721px;
+    height: 168px;
+    margin-top: 292px;
+    margin-left: 360px;
+    position: absolute;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* box-sizing: border-box; */
+    justify-content: center;
+}
+.description{
+    position: relative;
+    width: 721px;
+    height: 80px;
+    align-self: center;
+    padding: 10px;
+    /* height: 50%; */
+}
+.description >p{
+    position: absolute;
+    padding-left: 150px;
+    padding-right: 150px;
+
+box-sizing: border-box;
+align-self: center;
+align-content: center
+}
+
+.title
+{
+    /* font-size: 60px; */
+    align-self: center;
+    size: 72px;
+}

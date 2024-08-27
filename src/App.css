@@ -1,0 +1,45 @@
+
+.logo{
+  width: 36px;
+  height: 36px;
+  padding-top: 40px;
+  padding-left:96px ;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.logo_text{
+  position:relative;
+  width: 107px;
+  height: 44px;
+  margin-top: 36px;
+  margin-left: 667px;
+}
+.links{
+  width: 244px;
+  height: 24px;
+  position: absolute;
+  margin-top: 46px;
+  display: flex;
+  gap: 24px;
+  margin-left: 1100px;
+}
+.items{
+  display: flex;
+  width: 636px;
+  height: 24px;
+  position: absolute;
+  top: 140px;
+  left: 402px;
+  gap: 64px;
+}
+.center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+}
